@@ -2,6 +2,19 @@
 
 In this task, we'd like you to work with data collected via the [NorSOOP infrastructure project](https://www.norsoop.com/). 
 
+## Table of contents
+- [NorSOOP](#norsoop)
+- [Disclaimer](#disclaimer)
+- [Terminology](#terminology)
+- [Units](#units)
+- [Example data](#example-data)
+- [Code challenge](#code-challenge)
+    - [Task 1](#1-quality-control-on-the-following-measurements)
+    - [Task 2](#2-plan-a-data-ingestion-pipeline)
+- [Delivery](#delivery)
+- [Contact](#contact)
+
+
 ## NorSOOP
 ![NorSOOP](./figures/norsoop.webp)
 
