@@ -116,7 +116,7 @@ Each measurement is identified by a unique string with a corresponding value.
 TODO: provide a description of the different instruments (INLET, CTD, etc.)
 
 ## Code challenge
-Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data provided is not quality controlled.  Before the interview, we'd like you to write code solving the tasks below.
+Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data provided is not quality controlled.  Before the interview, we'd like you to prepare a solution to the tasks below.
 
 ### 1. Quality control on the following measurements:
 
@@ -125,6 +125,10 @@ Sensors can sometimes read out wrong values, especially sensors sitting in water
 - FA/ferrybox/OXYGEN/TEMPERATURE
 
 Create a code solution that can detect and filter out any anomalies that may have caused wrong measurements. You can use the example data in [data](./data) directory. The code solution should be applicable to a live monitoring system.
+
+#### Delivery
+
+Code solution as a **private** github fork. The code can be written in a language of your choice. During the interview we would like you to present the code.  The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
 
 ### 2. Plan a data ingestion pipeline
 
@@ -138,14 +142,9 @@ Consider the following requirements:
 
 The actual Ferrybox system can be considered out of scope, we can expect the system to upload files at a regular basis.
 
-## Delivery
+#### Delivery
 
-Before the interview, we would like you to prepare the following:
-
-- Code solution to task 1 as a **private** github fork
-- An oral presentation of the code solution and a presentation of a proposed architecture 
-
-The code can be written in a language of your choice. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
+A presentation during the interview. We don't expect you to write any code for part 2.
 
 ## Contact
 
