@@ -132,7 +132,7 @@ Code solution as a **private** github fork. The code can be written in a languag
 
 ### 2. Plan a data ingestion pipeline
 
-Plan an overall architecture for a cloud infrastructure ingesting Ferrybox data. The ingested data should be made available for data analysis externally. 
+Plan an overall architecture for a cloud infrastructure ingesting Ferrybox data. The ingested data should be made available for data analysis externally. We don't expect a professional architecture design, just a starting point for a discussion and maybe some evidence that you have thought about the tradeoffs
 
 Consider the following requirements:
 
