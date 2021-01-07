@@ -111,9 +111,9 @@ The [data](./data) directory contains an example of measurements from Color Fant
     }
 ```
 
-Each measurement is identified by a unique string with a corresponding value. 
-
-TODO: provide a description of the different instruments (INLET, CTD, etc.)
+Each measurement is identified by a unique string (following the pattern boat_name/sensor_group/sensor/measurement) with a corresponding value. 
+Sensor_group ferrybox relates to a physical box with sensors in a dedicated room inside the boat. Seawater is pumped from a subsurface inlet into the 
+ferrybox system. Sensor_group ferrybox/inlet refers to a set of sensors installed at inlet. CTD is used to measure the conductivity (closely related to salinity), temperature, and pressure (i.e. depth which is closely related to pressure) of seawater. 
 
 ## Code challenge
 Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data provided is not quality controlled.  Before the interview, we'd like you to prepare a solution to the tasks below.
