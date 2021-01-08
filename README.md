@@ -9,8 +9,6 @@ In this task, we'd like you to work with data collected via the [NorSOOP infrast
 - [Units](#units)
 - [Example data](#example-data)
 - [Code challenge](#code-challenge)
-    - [Task 1](#1-quality-control-on-the-following-measurements)
-    - [Task 2](#2-plan-a-data-ingestion-pipeline)
 - [Delivery](#delivery)
 - [Contact](#contact)
 
@@ -59,8 +57,6 @@ In the context of Ferrybox, the platform is the actual vessel. Identified by pla
 - All temperature measurements are done in Celsius
 - Location is using WGS 84 coordinates 
 - time format is using iso 8601 timestamps in UTC timezone
-
-TODO: we are missing the units for the rest of the measurements
 
 ## Example data
 
@@ -118,33 +114,16 @@ ferrybox system. Sensor_group ferrybox/inlet refers to a set of sensors installe
 ## Code challenge
 Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data provided is not quality controlled.  Before the interview, we'd like you to prepare a solution to the tasks below.
 
-### 1. Quality control on the following measurements:
+Perform quality control on the following measurements:
 
 - FA/ferrybox/INLET/TEMPERATURE
 - FA/ferrybox/CTD/TEMPERATURE
-- FA/ferrybox/OXYGEN/TEMPERATURE
 
-Create a code solution that can detect and filter out any anomalies that may have caused wrong measurements. You can use the example data in [data](./data) directory. The code solution should be applicable to a live monitoring system.
+Create a code solution that can detect and flag any anomalies that may have caused wrong measurements. You can use the example data in [data](./data) directory.
 
-#### Delivery
+## Delivery
 
-Code solution as a **private** github fork. The code can be written in a language of your choice. During the interview we would like you to present the code.  The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
-
-### 2. Plan a data ingestion pipeline
-
-Plan an overall architecture for a cloud infrastructure ingesting Ferrybox data. The ingested data should be made available for data analysis externally. We don't expect a professional architecture design, just a starting point for a discussion and maybe some evidence that you have thought about the tradeoffs
-
-Consider the following requirements:
-
-- Due to limited internet connectivity files are not always uploaded chronologically
-- It is important to avoid data loss
-- If quality control code is changed, historical data should be re-ingested
-
-The actual Ferrybox system can be considered out of scope, we can expect the system to upload files at a regular basis.
-
-#### Delivery
-
-A presentation during the interview. We don't expect you to write any code for part 2.
+Code solution as a **private** github fork. The code can be written in a language of your choice. During the interview we would like you to present the code. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
 
 ## Contact
 
