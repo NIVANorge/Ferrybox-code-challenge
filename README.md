@@ -123,7 +123,9 @@ Create a code solution that can detect and flag any anomalies that may have caus
 
 ## Delivery
 
-Code solution as a **private** github fork. The code can be written in a language of your choice. During the interview we would like you to present the code. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
+Code solution as a private github repository. Please share the repository with @haakondr and @zofiarudjord at github. If you face any difficulties or don't want to use github, you can send the solution via email.
+
+ The code can be written in a language of your choice. During the interview we would like you to present the code. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
 
 ## Contact
 
