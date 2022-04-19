@@ -125,7 +125,7 @@ Sensors can sometimes read out wrong values, especially sensors sitting in water
   - FA/ferrybox/INLET/TEMPERATURE
   - FA/ferrybox/CTD/TEMPERATURE
 * Write tests covering the checks your code solution performs
-* Create a runnable Dockerfile for your code solution
+* Optional, create a runnable Dockerfile for your code solution
 
 Preferably write the code in python, but if you decide to use a different language prepare a short explaination of your choice.
 
