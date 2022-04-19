@@ -3,14 +3,20 @@
 In this task, we'd like you to work with data collected via the [NorSOOP infrastructure project](https://www.norsoop.com/). 
 
 ## Table of contents
-- [NorSOOP](#norsoop)
-- [Disclaimer](#disclaimer)
-- [Terminology](#terminology)
-- [Units](#units)
-- [Example data](#example-data)
-- [Code challenge](#code-challenge)
-- [Delivery](#delivery)
-- [Contact](#contact)
+- [Ferrybox code challenge](#ferrybox-code-challenge)
+  - [Table of contents](#table-of-contents)
+  - [NorSOOP](#norsoop)
+  - [Disclaimer](#disclaimer)
+  - [Terminology](#terminology)
+      - [Measurement](#measurement)
+      - [Signal](#signal)
+      - [Pump](#pump)
+      - [Platform / Data source](#platform--data-source)
+  - [Units](#units)
+  - [Example data](#example-data)
+  - [Code challenge](#code-challenge)
+  - [Delivery](#delivery)
+  - [Contact](#contact)
 
 
 ## NorSOOP
@@ -112,21 +118,23 @@ Sensor_group ferrybox relates to a physical box with sensors in a dedicated room
 ferrybox system. Sensor_group ferrybox/inlet refers to a set of sensors installed at inlet. CTD is used to measure the conductivity (closely related to salinity), temperature, and pressure (i.e. depth which is closely related to pressure) of seawater. 
 
 ## Code challenge
-Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data provided is not quality controlled.  Before the interview, we'd like you to prepare a solution to the tasks below.
 
-Perform quality control on the following measurements:
+Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data in the [data](./data) directory is not quality controlled.  Before the interview, we'd like you to prepare a solution to the tasks below.
 
-- FA/ferrybox/INLET/TEMPERATURE
-- FA/ferrybox/CTD/TEMPERATURE
+* Create a code solution that can detect and flag anomalies in the [example data](./data) for these measurements:
+  - FA/ferrybox/INLET/TEMPERATURE
+  - FA/ferrybox/CTD/TEMPERATURE
+* Write tests covering the checks your code solution performs
+* Create a runnable Dockerfile for your code solution
 
-Create a code solution that can detect and flag any anomalies that may have caused wrong measurements. You can use the example data in [data](./data) directory.
+Preferably write the code in python, but if you decide to use a different language prepare a short explaination of your choice.
 
 ## Delivery
 
-Code solution as a private github repository. Please share the repository with @haakondr and @zofiarudjord at github. If you face any difficulties or don't want to use github, you can send the solution via email.
+Deliver your solution as a private github repository, that you share with @knl88 and @mek94. If you face any difficulties or don't want to use github, you can send the solution via email.
 
- The code can be written in a language of your choice. During the interview we would like you to present the code. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
+During the interview we would like you to present the solution. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
 
 ## Contact
 
-Please don't hesitate to reach out to [hakon.rokenes@niva.no](mailto:hakon.rokenes@niva.no) if you have any questions.
+Please don't hesitate to reach out to [kim.leirvik@niva.no](mailto:kim.leirvik@niva.no) if you have any questions.
