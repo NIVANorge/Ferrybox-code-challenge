@@ -50,10 +50,6 @@ A universally unique ID for each signal. Usages:
 - State tracking during data ingestion
 - Logging
 
-#### Pump
-
-The Ferrybox system pumps in water to perform measurements. If the pump is off, the system keeps measuring the same water. Pump status is indicated by <platform_code>/ferrybox/SYSTEM/PUMP (1 is on, 0 is off).
-
 #### Platform / Data source
 
 In the context of Ferrybox, the platform is the actual vessel. Identified by platform_code. 
@@ -119,22 +115,20 @@ ferrybox system. Sensor_group ferrybox/inlet refers to a set of sensors installe
 
 ## Code challenge
 
-Sensors can sometimes read out wrong values, especially sensors sitting in water. The example data in the [data](./data) directory is not quality controlled.  Before the interview, we'd like you to prepare a solution to the tasks below.
+Before the interview, we'd like you to prepare a solution to the tasks below.
 
-* Create a code solution that can detect and flag anomalies in the [example data](./data) for these measurements:
+* Create a Python code solution that reads and prints the first 3 rows of the [example data](./data) for these measurements:
   - FA/ferrybox/INLET/TEMPERATURE
   - FA/ferrybox/CTD/TEMPERATURE
-* Write tests covering the checks your code solution performs
-* Optional, create a runnable Dockerfile for your code solution
-
-Preferably write the code in python, but if you decide to use a different language prepare a short explaination of your choice.
+* Write a test for your code solution  
+* Create a working Kubernetes manifest along with a Docker file for your code solution     
 
 ## Delivery
 
-Deliver your solution as a private github repository, that you share with @knl88 and @mek94. If you face any difficulties or don't want to use github, you can send the solution via email.
+Deliver your solution as a private github repository, that you share with @knl88 and @ZofiaRudjord. If you face any difficulties or don't want to use github, you can send the solution via email.
 
 During the interview we would like you to present the solution. The code challenge is mainly used as a basis for conversation. **We don't expect a perfect solution**. 
 
 ## Contact
 
-Please don't hesitate to reach out to [kim.leirvik@niva.no](mailto:kim.leirvik@niva.no) if you have any questions.
+Please don't hesitate to reach out to [kim.leirvik@niva.no](mailto:kim.leirvik@niva.no) or [zofia.rudjord@niva.no](mailto:zofia.rudjord@niva.no) if you have any questions.
