@@ -121,7 +121,7 @@ Before the interview, we'd like you to prepare a solution to the tasks below.
   - FA/ferrybox/INLET/TEMPERATURE
   - FA/ferrybox/CTD/TEMPERATURE
 * Write a test for your code solution  
-* Create a working Kubernetes manifest along with a Docker file for your code solution     
+* Create a working Kubernetes manifest along with a Dockerfile for your code solution     
 
 ## Delivery
 
